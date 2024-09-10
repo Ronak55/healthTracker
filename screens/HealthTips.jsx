@@ -12,13 +12,12 @@ const HealthTips = () => {
   const [newTip, setNewTip] = useState({ title: '', content: '', category: '', image: null });
 
   const dummyTips = [
-    // Dummy data as before
     {
       id: 1,
       title: 'Stay Hydrated',
       content: 'Drinking plenty of water can help boost your metabolism, clear your skin, and improve overall health.',
       category: 'Nutrition',
-      image: require('../assets/water.png'), // Add relevant images in assets folder
+      image: require('../assets/water.png'), 
     },
     {
       id: 2,
